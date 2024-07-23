@@ -1,0 +1,29 @@
+.Skill{
+    margin-top: 100px;
+    margin-left: 400px;
+}
+.card{
+    margin-top: 20px;
+    margin-left: 70px;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(72, 69, 69);
+    border: 1px solid #2eebaa;
+    border-radius: 5px;
+    display: grid;
+    justify-content: center;
+}
+.btn1{
+    display: grid;
+    margin-top: 5px;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    padding-top: 7px;
+    height: 30px;
+    width: 100px;
+    border: 1px solid #2eebaa;
+    border-radius: 5px;
+&:hover{
+    color: #2eebaa;
+}
+}

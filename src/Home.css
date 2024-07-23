@@ -1,0 +1,140 @@
+.HomeScreen{
+    display: flex;
+    overflow-y: auto;
+}
+.left{
+    width: 25%;
+    color: white;
+    position: fixed;
+    top: 0px;
+    border: 2px solid white;
+    flex: 0.3;
+    height: 99vh;
+}
+.imgHome{
+    margin-top: 100px;
+    height: 300px;
+    width: 300px;
+    border-radius: 300px;
+}
+.rightScreen{
+    margin-left: 300px;
+    width: 100%;
+    flex: 0.9;
+}
+.socialIcons{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 100px;
+    
+   
+}
+
+.social{
+    margin-left: 20px;
+    
+}
+.btnHire{
+    margin-top: 20px;
+    margin-left: 50px;
+    padding: 16px;
+    width: 60%;
+    border-radius: 10px;
+    border: 1px solid white;
+&:hover{
+    color: #2eebaa;
+}
+}
+
+.homeIntro{
+    margin: 100px 0 10px 70px;
+}
+.port{
+    color: #2eebaa;
+    font-size: 20px;
+}
+.hello{
+    color: #2eebaa;
+}
+.intro{
+    margin-top: 30px;
+    font-size: 40px;
+}
+.detail{
+    margin-top: 20px;
+    font-size: 18px;
+}
+.homeSocial{
+    margin: 70px 0 20px 100px ;
+    justify-content: space-evenly;
+}
+.fa-solid{
+    color: #2eebaa;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+
+
+/* ================================== */
+
+@media screen and (max-width:1140px) {
+    
+    .left{
+        position: relative;
+        z-index: 1;
+        left: 200px;
+        margin-top: -80px;
+        border: none;
+    }
+    .rightScreen{
+        margin-top: 450px;
+        margin-left: -200px;
+    }
+    .socialIcons{
+        margin: 20px 0 0 20px;
+    }
+    .btnHire{
+       margin-left: 10px;
+    }
+    .educationIntro{
+        margin-left: -300px;
+    }
+    .skillData{
+        margin-left: -300px;
+    }
+    .contactForm{
+        margin-left: -250px;
+    }
+    .ch{
+        margin-left: -300px;
+    }
+    .c{
+        margin-left: -300px;
+    }
+    .fa-solid{
+        display: block;
+        margin-top: 20px;
+        margin-left: -30px;
+    }
+    .imgHome{
+        margin-left: -100px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

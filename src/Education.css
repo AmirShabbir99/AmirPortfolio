@@ -1,0 +1,34 @@
+.Education{
+    margin-top: 100px;
+    margin-left: 400px;
+}
+
+.career{
+    color: #2eebaa;
+    font-size: 20px;
+}
+.educationHeading{
+    
+    margin-top: 10px;
+    font-size: 40px;
+}
+
+.eduh{
+    color: #2eebaa;
+}
+.educationDetail{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.educationDetail h3{
+    margin-bottom: 10px;
+    color: #2eebaa;
+}
+.edu{
+    margin-top: 5px;
+}
+.eduShort{
+    margin-top: 5px;
+    color: gray;
+    font-size: 13px;
+}
