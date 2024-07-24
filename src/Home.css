@@ -92,33 +92,34 @@
         margin-left: -200px;
     }
     .socialIcons{
-        margin: 20px 0 0 20px;
+        margin: 20px 0 0 0px;
     }
     .btnHire{
-       margin-left: 10px;
+       margin-left: -1px;
     }
     .educationIntro{
-        margin-left: -300px;
+        margin-left: -380px;
     }
     .skillData{
-        margin-left: -300px;
+        margin-left: -380px;
     }
     .contactForm{
-        margin-left: -250px;
+        margin-left: -330px;
     }
     .ch{
-        margin-left: -300px;
+        margin-left: -380px;
     }
     .c{
-        margin-left: -300px;
+        margin-left: -380px;
     }
-    .fa-solid{
-        display: block;
-        margin-top: 20px;
-        margin-left: -30px;
+    .homeSocial{
+        display: grid;
+        grid-template-rows: auto auto auto;
+        gap: 10px;
+        margin-left: -100px;
     }
     .imgHome{
-        margin-left: -100px;
+        margin-left: -120px;
     }
 
 }
