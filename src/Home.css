@@ -1,4 +1,4 @@
-.HomeScreen{
+.HomeScreen1{
     display: flex;
     overflow-y: auto;
 }
@@ -61,6 +61,7 @@
     font-size: 40px;
 }
 .detail{
+    width: 800px;
     margin-top: 20px;
     font-size: 18px;
 }
@@ -121,6 +122,15 @@
     .imgHome{
         margin-left: -120px;
     }
+
+.projectimg
+{
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 460px;
+    height: 50vh;
+
+}
 
 }
 

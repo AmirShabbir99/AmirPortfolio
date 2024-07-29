@@ -1,21 +1,30 @@
-import React from 'react'
+import { useState } from 'react'
 import './Home.css'
 import img1 from './image/im1.png'
+import {useNavigate} from 'react-router-dom'
+
 const Home = () => {
+  const linkedIn=()=>{ 
+    window.location.href = 'https://www.linkedin.com/in/amir-shabbir-74404b280/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3B%2BIpBlYrfQOWNIbKr%2BZzGPg%3D%3D';
+  }
+  const github=()=>{ 
+    window.location.href = 'https://github.com/AmirShabbir99';
+  }
+  const navigate =useNavigate();
   return (
     <>
-    <div className="HomeScreen">
+    <div className="HomeScreen1">
             <div className="left">
             <img className='imgHome' src={img1} alt="" />
         <div className="socialIcons">
-            <div className="social">
+            <div className="social" onClick={linkedIn}>
             <i className="fa-brands fa-linkedin"></i>
             </div>
-            <div className="social">
+            <div className="social" onClick={github}>
             <i className="fa-brands fa-github" ></i>
             </div>
         </div>
-        <button className='btnHire'>Hire Me</button>
+        <button onClick={()=>navigate('/contact')} className='btnHire'>Hire Me</button>
         </div>
        
 
