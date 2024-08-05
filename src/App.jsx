@@ -20,22 +20,7 @@ function App() {
     </div>
 
 
-    <div>hi</div>
-        <div>hi</div>
-        <div>hi</div>
-        <div>hi</div>
-        <div>hi</div>
-        <div>hi</div>
-        <div>hi</div>
-        <div>hi</div>
-        <div>hi</div>
-        <div>hi</div>
-        <div>hi</div>
-        <div>hi</div>
-        <div>hi</div>
-        <div>hi</div>
-        <div>hi</div>
-        <div>hi</div>
+  
     </>
     )
 }
