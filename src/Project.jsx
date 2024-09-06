@@ -1,19 +1,32 @@
 import React from 'react'
 import './Project.css'
-import amazon1 from './image/amazon1.png'
-import amazon2 from './image/amazon2.png'
-import amazon3 from './image/amazon3.png'
+import Card from './Card.jsx'
+import Recipe from './image/foods.png'
+import Shop from './image/shoping.png'
+import News from './image/news.png'
+
 const Project = () => {
   return (
     <>
     <div className="Project">
-    <div className="educationIntro">
-      <div className="career">Work</div>
-      <div className="educationHeading"> <span className="eduh">Featured</span> &Project</div>
-      <div className="clone">Amazon Clone</div>
-    <img className='projectimg' src={amazon1} alt="" />
-    <img className='projectimg' src={amazon2} alt="" />
-    <img className='projectimg' src={amazon3} alt="" />
+    <div className="education-intro">
+      <div className="education-career">Work</div>
+      <div className="education-heading"> <span className="eduh">Featured</span> &Project</div>
+      <div className="project-card">
+        <Card 
+        img={Recipe} 
+        detail='Food Recipe'  
+        ></Card>
+        <Card
+        img={Shop} 
+        detail='Amazon Clone'  
+        ></Card>
+        <Card
+        img={News} 
+        detail='News Update'  
+        ></Card>
+      </div>
+
     </div>   
     </div>
     

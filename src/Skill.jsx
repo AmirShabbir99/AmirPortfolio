@@ -4,16 +4,16 @@ const Skill = () => {
   return (
     <>
     <div className="Skill">
-        <div className="skillData">
-                <div className="career">Skills</div>
-                <div className="educationHeading"> <span className="eduh">My Skills</span> &Knowledge</div>
-        <div className="card">
+        <div className="skill-data">
+                <div className="education-career">Skills</div>
+                <div className="education-heading"> <span className="eduh">My Skills</span> &Knowledge</div>
+        <div className="skill-card">
 
-            <button className='btn1'> C++ </button>
-            <button className='btn1'>HTML</button>
-            <button className='btn1'>CSS</button>
-            <button className='btn1'>JavaScript</button>
-            <button className='btn1'>React JS</button>
+            <button className='skill-card-btn'> C++ </button>
+            <button className='skill-card-btn'>HTML</button>
+            <button className='skill-card-btn'>CSS</button>
+            <button className='skill-card-btn'>JavaScript</button>
+            <button className='skill-card-btn'>React JS</button>
         </div>
       
     </div>   

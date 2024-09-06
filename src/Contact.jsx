@@ -18,14 +18,14 @@ const Contact = () => {
   return (
     <>
     <div className="Contact">
-    <div className="career c">Contact</div>
-    <div className="educationHeading ch"> <span className="eduh">Let's</span> Work Together</div>
+    <div className="education-career">Contact</div>
+    <div className="education-heading"> <span className="eduh">Let's</span> Work Together</div>
 
-    <form className="contactForm" onSubmit={handleSubmit}>
-< input type= 'text' name="from_name" placeholder= 'Name' className='inputFiledText' />
-< input type= 'email' name="from_email" placeholder= 'Email' className='inputFiledText' />
-<textarea  name="message" placeholder='Enter Message' className='inputFiledTextMessage'/>
-<input type= 'submit'   className="submitContact" />
+    <form className="contact-form" onSubmit={handleSubmit}>
+< input type= 'text' name="from_name" placeholder= 'Name' className='input-filed-text' />
+< input type= 'email' name="from_email" placeholder= 'Email' className='input-filed-text' />
+<textarea  name="message" placeholder='Enter Message' className='input-filed-text-msg'/>
+<input type= 'submit'   className="contact-submit" />
 </form>
 
     </div>

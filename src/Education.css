@@ -3,31 +3,31 @@
     margin-left: 400px;
 }
 
-.career{
+.education-career{
     color: #2eebaa;
     font-size: 20px;
 }
-.educationHeading{
+.education-heading{
     
     margin-top: 10px;
     font-size: 40px;
 }
 
-.eduh{
+.education-heading2{
     color: #2eebaa;
 }
-.educationDetail{
+.education-detail{
     margin-left: 20px;
     margin-top: 10px;
 }
-.educationDetail h3{
+.education-detail h3{
     margin-bottom: 10px;
     color: #2eebaa;
 }
-.edu{
+.education-data{
     margin-top: 5px;
 }
-.eduShort{
+.education-date-short{
     margin-top: 5px;
     color: gray;
     font-size: 13px;

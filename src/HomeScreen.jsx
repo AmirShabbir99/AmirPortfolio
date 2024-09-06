@@ -5,6 +5,8 @@ import Education from './Education.jsx'
 import Skill from './Skill.jsx'
 import Project from './Project.jsx'
 import Contact from './Contact.jsx'
+import Card from './Card.jsx'
+
 const HomeScreen = () => {
   return (
     <>
@@ -13,8 +15,7 @@ const HomeScreen = () => {
     <Education></Education>
     <Skill></Skill>
     <Project></Project>
-    <Contact></Contact>
-
+    <Contact></Contact> 
     </div>
     
     </>
