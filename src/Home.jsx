@@ -2,6 +2,10 @@ import React from 'react';
 import './Home.css';
 import img1 from './image/im1.png';
 import { useNavigate } from 'react-router-dom';
+import{useTypewriter,Cursor} from 'react-simple-typewriter'
+
+
+
 
 const Home = () => {
   const linkedIn = () => {
@@ -14,6 +18,16 @@ const Home = () => {
 
   const navigate = useNavigate();
 
+  
+const [typeEffect]= useTypewriter({
+
+  words:[' I\'m M.Amir Shabbir' ,' Front End Developer'],
+  loop: {} ,
+  typeSpeed: 100,
+  deteteSpeed: 40
+  })
+
+  
   return (
     <>
       <div className="HomeScreen1">
@@ -36,7 +50,7 @@ const Home = () => {
           <div className="home-intro">
             <div className="home-heading">Portfolio</div>
             <div className="home-data">
-              <span className="home-hello">Hello</span>, M.Amir Shabbir, Front End Developer
+              <span className="home-hello">Hi ,</span>{typeEffect} <span className='home-cursor-color'> <Cursor></Cursor></span>
             </div>
             <div className="home-detail">
               Dynamic and detail-oriented web developer with a Bachelor of Computer Science from

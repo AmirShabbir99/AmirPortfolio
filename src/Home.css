@@ -68,7 +68,10 @@
 {
     color: #2eebaa;
 }
-
+.home-cursor-color
+{
+    color: #2eebaa;   
+}
 .home-detail
 {
     width: 800px;
@@ -91,21 +94,26 @@
 
 /* ================================== */
 
-@media screen and (max-width:1140px) {
+@media screen and (max-width:600px) {
     
     .home-left{
-        position: relative;
-        z-index: 1;
-        left: 200px;
+        flex: 1;
+        position: static;
+        margin-left: 200px;
         margin-top: -80px;
         border: none;
     }
+    .home-img
+    {
+        margin-left: 0px !important;
+    }
     .home-right{
         margin-top: 450px;
-        margin-left: -200px;
+        justify-content: start;
+        margin-left: -950px;
     }
     .home-social-Icons{
-        margin: 20px 0 0 0px;
+        margin: 20px 0 0 100px;
     }
     .home-info{
         display: grid;
@@ -117,7 +125,8 @@
         margin-left: -120px;
     }
     .home-btn-Hire{
-       margin-left: -1px;
+        width: 100px;
+       margin-left: 100px;
     }
     .education-intro{
         margin-left: -380px;
@@ -130,11 +139,92 @@
         margin-left: -380px;
     }
     .Contact{
-        margin-left: -380px;
+        margin-left: 20px !important;
+    }
+    .contact-form
+    {
+        margin-top: 30px;
+        margin-left: 180px !important ;
+    }
+    .skill-card
+    {
+        margin-left: 150px !important;
+    }
+   .project-card
+   {
+    margin-left: 100px;
+   }
+    .home-detail
+    {
+    width: auto;   
+    }
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width:480px) {
+    
+    .home-left{
+        flex: 1;
+        position: static;
+        margin-left: 200px;
+        margin-top: -80px;
+        border: none;
+    }
+    .home-img
+    {
+        margin-left: -100px !important;
+    }
+    .home-right{
+        margin-top: 450px;
+        justify-content: start;
+        margin-left: -800px;
+    }
+    .home-social-Icons{
+        margin: 20px 0 0 0px;
+    }
+    .home-info{
+        display: grid;
+        grid-template-rows: auto auto auto;
+        gap: 10px;
+        margin-left: -100px;
     }
    
-
-
+    .home-btn-Hire{
+        width: 100px;
+       margin-left: 0px;
+    }
+    .education-intro{
+        margin-left: -380px;
+    }
+    .skill-data{
+        margin-left: -380px;
+    }
+    
+    .education-all{
+        margin-left: -380px;
+    }
+    .Contact{
+        margin-left: 20px !important;
+    }
+    .skill-card
+    {
+        margin-left: 100px !important;
+    }
+   .project-card
+   {
+    margin-left: 50px;
+   }
+   .contact-form
+   {
+       margin-top: 30px;
+       margin-left: 100px ;
+   }
 .home-detail{
    width: auto;   
 }

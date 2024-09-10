@@ -1,7 +1,12 @@
 import React from 'react'
 import './Card.css'
 
-const Card = ({img,detail}) => {
+const Card = ({img,detail,funName}) => {
+
+
+ 
+
+
   return (
     <>
     <div className="Card">
@@ -10,7 +15,7 @@ const Card = ({img,detail}) => {
             </div>
             <div className="card-data">
                 <p className='card-detail'>{detail}</p>
-                <button className="card-btn">Click here</button>
+                <button className="card-btn" onClick={funName}>Click here</button>
             </div>
     </div>
     </>
