@@ -5,8 +5,6 @@ import { useNavigate } from 'react-router-dom';
 import{useTypewriter,Cursor} from 'react-simple-typewriter'
 
 
-
-
 const Home = () => {
   const linkedIn = () => {
     window.location.href = 'https://www.linkedin.com/in/amir-shabbir-74404b280/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3B%2BIpBlYrfQOWNIbKr%2BZzGPg%3D%3D';
@@ -32,7 +30,7 @@ const [typeEffect]= useTypewriter({
     <>
       <div className="HomeScreen1">
         <div className="home-left">
-          <img className='home-img' src={img1} alt="" />
+          <img className='home-img'  src={img1} alt="" />
           <div className="home-social-Icons">
             <div className="social-icon" onClick={linkedIn}>
               <i className="fa-brands fa-linkedin"></i>
@@ -54,7 +52,7 @@ const [typeEffect]= useTypewriter({
             </div>
             <div className="home-detail">
               Dynamic and detail-oriented web developer with a Bachelor of Computer Science from
-              Lahore Garrison University. Proficient in HTML, CSS, JavaScript, and React.js, with over 5
+              Lahore Garrison University. Proficient in HTML, CSS, JavaScript, and React.js, with over 6
               months of Experience & Practice in front end development. Skilled in both independent and
               collaborative projects, specializing in landing page and website development. Possesses
               foundational knowledge in Flutter and machine learning. Committed to delivering high

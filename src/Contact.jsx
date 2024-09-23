@@ -18,8 +18,8 @@ const Contact = () => {
   return (
     <>
     <div className="Contact">
-    <div className="education-career">Contact</div>
-    <div className="education-heading"> <span className="eduh">Let's</span> Work Together</div>
+    <div className="heading-color-1">Contact</div>
+    <div className="heading-color-0"> <span className="heading-color-2">Let's</span> Work Together</div>
 
     <form className="contact-form" onSubmit={handleSubmit}>
 < input type= 'text' name="from_name" placeholder= 'Name' className='input-filed-text' />

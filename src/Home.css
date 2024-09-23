@@ -1,7 +1,6 @@
 .HomeScreen1
 {
     display: flex;
-    overflow-y: auto;
 }
 .home-left
 {
@@ -30,6 +29,10 @@
 {
     margin-left: 20px;
     justify-content: space-around;
+    &:hover
+    {
+        background-color: #2eebaa;
+    }
 }
 .home-btn-Hire
 {
@@ -39,9 +42,10 @@
     width: 60%;
     border-radius: 10px;
     border: 1px solid white;
-&:hover
+    &:hover
     {
         color: #2eebaa;
+        background-color: rgb(61, 56, 56);
     }
 }
 .home-right
@@ -89,17 +93,20 @@
     margin-left: 20px;
     margin-right: 10px;
 }
-
-
+.home-span-info:hover
+{
+    cursor: pointer;
+    color: #2eebaa;
+}
 
 /* ================================== */
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:800px) {
     
     .home-left{
         flex: 1;
         position: static;
-        margin-left: 200px;
+        margin-left: 150px;
         margin-top: -80px;
         border: none;
     }
@@ -126,7 +133,7 @@
     }
     .home-btn-Hire{
         width: 100px;
-       margin-left: 100px;
+       margin-left: 95px;
     }
     .education-intro{
         margin-left: -380px;
@@ -152,13 +159,36 @@
     }
    .project-card
    {
-    margin-left: 100px;
+    margin-left: -1px !important;
    }
     .home-detail
     {
     width: auto;   
     }
+    .images
+    {
+        height: 60vh !important ;
+        width: 90% !important;
+        margin-left: 30px !important;
+    }
 
+
+    .project-name
+{
+    margin-top: 0px !important;
+    margin-left: 20px !important;
+}
+.visit-project
+{
+    margin-top: 20px ;
+    margin-left: 20px !important;
+}
+.project-data
+{
+    margin-top: 20px;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+}
 }
 
 
@@ -172,7 +202,7 @@
     .home-left{
         flex: 1;
         position: static;
-        margin-left: 200px;
+        margin-left: 180px;
         margin-top: -80px;
         border: none;
     }
@@ -197,7 +227,7 @@
    
     .home-btn-Hire{
         width: 100px;
-       margin-left: 0px;
+       margin-left: -5px;
     }
     .education-intro{
         margin-left: -380px;
@@ -218,17 +248,40 @@
     }
    .project-card
    {
-    margin-left: 50px;
+    margin-left: 50px !important;
    }
    .contact-form
    {
        margin-top: 30px;
-       margin-left: 100px ;
+       margin-left: 100px !important;
    }
 .home-detail{
    width: auto;   
 }
+.images
+{
+    height: 45vh !important ;
+    width: 90% !important;
+    margin-left: 20px !important;
+}
 
+
+.project-name
+{
+    margin-top: 0px !important;
+    margin-left: 20px !important;
+}
+.visit-project
+{
+    margin-top: 20px ;
+    margin-left: 20px !important;
+}
+.project-data
+{
+    margin-top: 20px;
+    margin-left: 20px !important;
+    margin-right: 0px !important;
+}
 }
 
 

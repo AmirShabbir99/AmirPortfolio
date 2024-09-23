@@ -5,8 +5,8 @@ const Skill = () => {
     <>
     <div className="Skill">
         <div className="skill-data">
-                <div className="education-career">Skills</div>
-                <div className="education-heading"> <span className="eduh">My Skills</span> &Knowledge</div>
+                <div className="heading-color-1">Skills</div>
+                <div className="heading-color-0"> <span className="heading-color-2">My Skills</span> &Knowledge</div>
         <div className="skill-card">
 
             <button className='skill-card-btn'> C++ </button>

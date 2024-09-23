@@ -1,7 +1,7 @@
 import React from 'react'
 import './Card.css'
-
-const Card = ({img,detail,funName}) => {
+import { Link } from 'react-router-dom'
+const Card = ({img,detail,funName,linkPath}) => {
 
 
  
@@ -11,7 +11,9 @@ const Card = ({img,detail,funName}) => {
     <>
     <div className="Card">
         <div className="card-inner">
+          <Link to={`/${linkPath}`}>
             <img className='card-img' src={img} alt="" />
+            </Link>
             </div>
             <div className="card-data">
                 <p className='card-detail'>{detail}</p>

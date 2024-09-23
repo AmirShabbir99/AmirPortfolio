@@ -5,8 +5,8 @@ const Education = () => {
     <div>
         <div className="Education">
             <div className="education-all">
-                <div className="education-career">Career</div>
-                <div className="education-heading"> <span className="education-heading2">Education</span> &Experience</div>
+                <div className="heading-color-1">Career</div>
+                <div className="heading-color-0"> <span className="heading-color-2">Education</span> &Experience</div>
                 <div className="education-detail">
                     <div className="education-data">Bachelor of Computer Science </div>
                     <div className="education-data">Lahore Garrison University (Lahore, Pakistan) </div>
@@ -20,8 +20,8 @@ const Education = () => {
                     <div className="education-data"></div>
 
                     <h3>WORK EXPERIENCE </h3>
-                    <div className="education-data">• 2 Months Experience & Practice in Flutter Development. </div>
-                    <div className="education-data">• 2 Months Experience & Practice in Flutter Development. </div>
+                    <div className="education-data">• 4 Months Experience & Practice in Flutter Development. </div>
+                    <div className="education-data">• 2 Months Experience & Practice in Machine Learning. </div>
                     <div className="education-data">• Proficient in HTML, CSS, JavaScript, and React.js. </div>
                     <div className="education-data">• Experienced in both independent and collaborative projects. </div>
                     

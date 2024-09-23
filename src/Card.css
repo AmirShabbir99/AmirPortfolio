@@ -6,10 +6,12 @@
     margin-left: 1px;
     margin-top: 30px;
     border: 1px solid white;
-    border-radius: 10px;
+    cursor: pointer;
     &:hover
     {
         border: 1px solid #2eebaa;
+        opacity: 0.8;
+
     }
 }
 .card-inner
@@ -40,10 +42,10 @@
     height: 30px;
     width: 90px;
     border: 1px solid white;
-    border-radius: 20px;
+    
     &:hover
     {
         background-color: rgb(77, 69, 69);
-    
+        color: #2eebaa;
     }
 }
